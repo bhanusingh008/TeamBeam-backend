@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://teambeam.in")
 public class AuthController {
     AuthenticationManager authenticationManager;
     PasswordEncoder passwordEncoder;
